@@ -5,7 +5,7 @@ RUN apk add --no-cache \
 
 ENV CGO_ENABLED=0
 
-COPY . /go/src/github.com/pion/dtls
-WORKDIR /go/src/github.com/pion/dtls/e2e
+COPY . /go/src/github.com/carrotsong/dtls
+WORKDIR /go/src/github.com/carrotsong/dtls/e2e
 
 CMD ["go", "test", "-tags=openssl", "-v", "."]

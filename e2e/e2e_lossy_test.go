@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/dtls/v2"
-	"github.com/pion/dtls/v2/pkg/crypto/selfsign"
-	transportTest "github.com/pion/transport/test"
+	"github.com/carrotsong/dtls/v2"
+	"github.com/carrotsong/dtls/v2/pkg/crypto/selfsign"
+	transportTest "github.com/carrotsong/transport/test"
 )
 
 const (

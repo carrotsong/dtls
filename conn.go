@@ -10,11 +10,11 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/pion/dtls/v2/internal/closer"
-	"github.com/pion/dtls/v2/internal/net/connctx"
-	"github.com/pion/logging"
-	"github.com/pion/transport/deadline"
-	"github.com/pion/transport/replaydetector"
+	"github.com/carrotsong/dtls/v2/internal/closer"
+	"github.com/carrotsong/dtls/v2/internal/net/connctx"
+	"github.com/carrotsong/logging"
+	"github.com/carrotsong/transport/deadline"
+	"github.com/carrotsong/transport/replaydetector"
 )
 
 const (

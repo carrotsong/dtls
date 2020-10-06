@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pion/dtls/v2/internal/net/dpipe"
-	"github.com/pion/dtls/v2/pkg/crypto/selfsign"
-	"github.com/pion/transport/test"
+	"github.com/carrotsong/dtls/v2/internal/net/dpipe"
+	"github.com/carrotsong/dtls/v2/pkg/crypto/selfsign"
+	"github.com/carrotsong/transport/test"
 )
 
 func TestContextConfig(t *testing.T) {

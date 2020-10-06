@@ -8,7 +8,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/pion/transport/deadline"
+	"github.com/carrotsong/transport/deadline"
 )
 
 // Pipe creates pair of non-stream conn on memory.
